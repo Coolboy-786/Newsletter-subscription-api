@@ -39,7 +39,7 @@ app.post("/", function(req,res) {
 
   const options = {
     method : "POST",
-    auth: "Eshan:cdbb1d0e782ebda7ef3e2c07c66d8b21-us12"
+    auth: "Eshan:API KEY"
   }
 
   const request = https.request(url, options, function(response) {
@@ -71,7 +71,7 @@ app.listen(process.env.PORT || 3000, function(){
 
 
 // Api Key
-// cdbb1d0e782ebda7ef3e2c07c66d8b21-us12
+
 
 // unique ID
-// 7a72b3d554
+
